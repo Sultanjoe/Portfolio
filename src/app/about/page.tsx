@@ -29,7 +29,7 @@ const page = () => {
             variants={container}
             initial="hidden"
             animate="show"
-            className="flex flex-col font-raleway justify-start h-full w-full py-34 md:py-36 lg:py-42 xl:py-40 pl-23 md:pl-98 lg:pl-150 xl:pl-340 px-5 lg:px-10 text-[13px] lg:text-[14px]"
+            className="flex flex-col font-raleway justify-start h-full w-full py-34 md:py-36 lg:py-42 xl:py-40 pl-23 md:pl-98 lg:pl-150 xl:pl-220 2xl:pl-350 px-5 lg:px-10 text-[13px] lg:text-[14px]"
         >
             <motion.div variants={item} className="flex flex-col gap-10 ">
                 {/* About */}
@@ -42,11 +42,12 @@ const page = () => {
                         variants={item}
                         className="font-light text-justify text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px]"
                     >
-                        Hellooo!!! I am Sultan Sulaiman. I am a passionate Junior Frontend Developer
-                        with a keen eye for design and a love for creating intuitive user
-                        experiences. With a strong foundation in HTML, CSS, and JavaScript, I strive
-                        to build responsive and accessible websites that not only look great but
-                        also perform exceptionally well.
+                        Hello! I'm Sultan Sulaiman, a passionate Junior Frontend Developer with a
+                        strong interest in building modern and engaging web applications. I
+                        specialize in HTML, CSS, and JavaScript, and I enjoy working with Tailwind
+                        CSS, Next.js, and TypeScript to create responsive and scalable user
+                        interfaces. I focus on delivering smooth, performant user experiences while
+                        continuously learning new technologies to grow and improve as a developer.
                     </motion.p>
                 </motion.div>
 
@@ -57,7 +58,9 @@ const page = () => {
                     </motion.div>
 
                     <motion.div variants={item}>
-                        <p className="font-semibold ml-2 mb-0.2 lg:text-[15px] xl:text-[16px]">2025</p>
+                        <p className="font-semibold ml-2 mb-0.2 lg:text-[15px] xl:text-[16px]">
+                            2025
+                        </p>
 
                         <span className="font-light flex flex-col text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px]">
                             Junior Frontend Developer (Internship)

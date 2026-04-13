@@ -29,7 +29,7 @@ const page = () => {
             variants={container}
             initial="hidden"
             animate="show"
-            className="flex flex-col font-raleway justify-start h-full w-full py-34 md:py-36 lg:py-42 xl:py-40 pl-23 md:pl-98 lg:pl-150 xl:pl-350 px-5 lg:px-10 text-[13px] lg:text-[14px]"
+            className="flex flex-col font-raleway justify-start h-full w-full py-34 md:py-36 lg:py-42 xl:py-40 pl-23 md:pl-98 lg:pl-150 xl:pl-220 2xl:pl-350 px-5 lg:px-10 text-[13px] lg:text-[14px]"
         >
             <motion.div variants={item} className="flex flex-col gap-3">
                 <h1 className="font-semibold">- Contact -</h1>

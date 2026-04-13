@@ -22,7 +22,7 @@ const robotoCondensed = Roboto_Condensed({
 // ✅ sekarang bisa pakai metadata
 export const metadata = {
     title: 'Sultan Sulaiman',
-    description: 'Website portfolio keren',
+    description: 'Portfolio',
     icons: {
         icon: '/Logo.svg', // Menggunakan logo yang diimpor sebagai ikon
     },
