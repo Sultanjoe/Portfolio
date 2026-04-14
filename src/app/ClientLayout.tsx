@@ -27,10 +27,10 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
                     </div>
 
                     {/* Sidebar */}
+                        <Sidebar />
 
                     {/* Content */}
                     <div className="flex h-full overflow-y-auto no-scrollbar absolute inset-0">
-                        <Sidebar />
                         {children}
                     </div>
                 </motion.div>
