@@ -43,7 +43,7 @@ export default function RootLayout({
                 'font-sans'
             )}
         >
-            <body className="h-screen bg-black">
+            <body className="min-h-screen bg-black items-center flex justify-center">
                 <ClientLayout>{children}</ClientLayout>
             </body>
         </html>
